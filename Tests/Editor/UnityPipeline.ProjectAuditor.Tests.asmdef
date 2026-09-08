@@ -1,0 +1,8 @@
+{
+  "name": "UnityPipeline.ProjectAuditor.Tests",
+  "references": ["UnityPipeline.ProjectAuditor.Editor", "Unity.Pipeline", "Unity.Nuget.Newtonsoft-Json"],
+  "includePlatforms": ["Editor"],
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": true,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

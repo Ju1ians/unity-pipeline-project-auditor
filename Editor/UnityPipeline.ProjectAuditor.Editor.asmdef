@@ -1,0 +1,7 @@
+{
+  "name": "UnityPipeline.ProjectAuditor.Editor",
+  "rootNamespace": "UnityPipeline.ProjectAuditor.Editor",
+  "references": ["Unity.Pipeline", "Unity.Nuget.Newtonsoft-Json"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
