@@ -3,8 +3,17 @@
   "displayName": "Unity Pipeline Project Auditor Extension",
   "version": "0.1.0",
   "unity": "6000.0",
-  "description": "Standalone structured, asynchronous Project Auditor commands for official Unity Pipeline. No Gateway dependency.",
-  "author": { "name": "Julian Ketter", "url": "https://github.com/Ju1ians" },
-  "repository": { "type": "git", "url": "https://github.com/Ju1ians/unity-pipeline-project-auditor.git" },
-  "dependencies": { "com.unity.pipeline": "0.6.0-exp.1", "com.unity.nuget.newtonsoft-json": "3.0.2" }
+  "description": "Structured, asynchronous Project Auditor commands for official Unity Pipeline with paginated JSON results and explicit scan lifecycle control.",
+  "author": {
+    "name": "Julian Ketter",
+    "url": "https://github.com/Ju1ians"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ju1ians/unity-pipeline-project-auditor.git"
+  },
+  "dependencies": {
+    "com.unity.pipeline": "0.6.0-exp.1",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  }
 }
