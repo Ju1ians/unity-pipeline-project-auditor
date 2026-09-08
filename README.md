@@ -1,7 +1,6 @@
 # Unity Pipeline Project Auditor Extension
 
 Standalone structured Project Auditor integration for **official Unity Pipeline**.
-No Gateway, Bridge, existing Pipeline Extensions, CSV parser, or external service is required.
 
 ## Install
 
