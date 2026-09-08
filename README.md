@@ -1,5 +1,12 @@
 # Unity Pipeline Project Auditor Extension
 
+> **Superseded by [Unity Pipeline Extensions v0.5.0](https://github.com/Ju1ians/unity-pipeline-extensions/releases/tag/v0.5.0).**
+> Project Auditor now ships as an optional module in that package, with the same
+> `project_audit_*` commands and structured result schema. Use the consolidated
+> package for new installations. Close Unity and remove this standalone package
+> in the same manifest edit as the Extensions upgrade; do not install both.
+> The `v0.1.0` tag and release remain available for existing installations.
+
 Structured Project Auditor access for **official Unity Pipeline**.
 
 This package is for tools that need to run Unity Project Auditor through Pipeline and consume findings programmatically without managing CSV files. It exposes audits as bounded, paginated JSON with explicit scan IDs and lifecycle control, making it useful for editor tooling, CI, automation, and other Pipeline clients.
